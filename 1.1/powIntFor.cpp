@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int pow(int base, int esponente);
+int powInt(int base, int esponente);
 int main(){
     int a,b;
 
@@ -8,9 +8,9 @@ int main(){
     cin>>a;
     cout<<"esponente= ";
     cin>>b;
-    cout<<a<<"^"<<b<<"= "<<pow(a,b);  
+    cout<<a<<"^"<<b<<"= "<<powInt(a,b);  
 }
-int pow( int base, int esponente){
+int powInt( int base, int esponente){
     int potenza=1;
     for (int k=0; k < esponente; k++){
         potenza*=base;
