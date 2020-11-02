@@ -1,4 +1,4 @@
-#include "powIntFor.hpp"
+#include "powInt.hpp"
 #include "splitter.hpp"
 
 int splitter ( int toSplit, int index){
