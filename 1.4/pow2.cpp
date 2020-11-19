@@ -7,14 +7,14 @@
 #include "powInt.hpp"
 using namespace std;
 
-int main();
-int a; 
-int powInt(int base, int exp){
+int main(){
+int a,exp; 
+int powInt(int base, int exp);
     cout<< "premere 2 per stampare multipli di 2"<<endl;
     cin>> a;
     if (a==2){
-        for(int exp= 0; exp <= exp; exp++){
-        cout<<"2^"<<exp<<"="<<powInt(base, exp)<<endl;
+        for(exp=1; exp<=exp; exp++)
+        cout<<powInt(2,exp);
     }
-return 0;
+
 }
